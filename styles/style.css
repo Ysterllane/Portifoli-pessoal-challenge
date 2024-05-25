@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: #f8e8d4;
+}
+
+/* CABEÇALHO / HEADER */
+.cabecalho{
+    width: 90%; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 32px 0;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.cabecalho__img_e_titulo{
+    display: flex;
+}
+.cabecalho__img_e_titulo__titulo{
+    padding-left: 8px;
+}
+.cabecalho__navegacao{
+    display: flex;
+    gap: 32px;
+}
+.cabecalho__navegacao__links{
+    color: #f8e8d4;
+}
+
+/* APRESENTAÇÃO / MAIN */
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.apresentacao__bibliografia{
+    width: 90%; 
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+.apresentacao__bibligrafia__texto{
+    padding: 61px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.apresentacao__bibligrafia__texto__links{
+    color: #f8e8d4;
+}
+.apresentacao__bibligrafia__texto__img_setinha{
+    width: 24px;
+}
+.apresentacao__bibliografia__img_ysterllane{
+    width: 290px;
+
+}
+.apresentacao__sobre_mim{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 2% 5%;
+    background-color: #f8e8d4;
+    color: black;
+}
+.apresentacao__hard_skils, .apresentacao__soft_skils, .apresentacao__formacao_academica{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    color: black;
+}
+.apresentacao__hard_skils__itens{
+    width: 120px;
+    padding: 94px 16px 16px 16px;
+    background-color: #ffaece;
+    border-radius: 5px;
+}
+.apresentacao__soft_skils__itens{
+    width: 120px;
+    padding: 0 14px 16px 12px;
+    background-color: #ffaece;
+    border-radius: 5px;
+}
+.apresentacao__formacao_academica__itens{
+    width: 300px;
+    padding: 16px;
+    color: #f8e8d4;
+    
+}
+.apresentacao__formacao_academica__itens__img{
+    width: 300px;
+    height: 155px;
+    background-color: #f8e8d4;
+    border-radius: 10px;
+}
+.minha-melhor-versao{
+    width: 800px;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+}
+
+/* EXPERIÊNCIA PROFISSIONAL */
+
+.apresentacao__experiencia-profissional__minha-melhor-versao{
+    display: flex;
+    justify-content: center;
+}
+.apresentacao__experiencia-profissional__texto{
+    padding: 200px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+}
+.apresentacao__experiencia-profissional__texto__botoes{
+    display: flex;
+    gap: 10px;
+}
+button{
+    height: 50px;
+    width: 95px;
+    border-radius: 10px;
+}
+.button-site{
+    background-color: black;
+    border-color: #f8e8d4;
+}
+.button-repository{
+    background-color: #f8e8d4;
+    color: #000000;
+    border-color: #000000
+}
+.apresentacao__experiencia-profissional__minha-melhor-versao{
+    padding: 20px;
+}
+.apresentacao__experiencia-profissional__link-site{
+    color: #f8e8d4;
+}
+.apresentacao__experiencia-profissional__link-repository{
+    color: #000000;
+}
+.apresentacao__experiencia-profissional__luisa-sonza{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.luisa-sonza-img{
+    width: 480px;
+    padding: 5px;
+}
+.apresentacao__experiencia-profissional__texto__luisa-sonza{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.dps{
+    width: 90%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* RODAPÉ / FOOTER */
+.rodape{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 16px;
+    background: #ffaece;
+    color: black;
+    gap: 5px;
+}
